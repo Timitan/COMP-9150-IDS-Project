@@ -1,9 +1,9 @@
-Experiment,Type,Model,MCC,Macro-F1,Description
-1,within-dataset,RF,0.9977542849594369,0.8609745147773801,Train LycoS17 -> Eval LycoS17 (within-dataset)
-1,within-dataset,XGB,0.9928408613393767,0.7350037589914958,Train LycoS17 -> Eval LycoS17 (within-dataset)
-2,cross-dataset,RF,0.04274144277439033,0.23547561870216666,Train LycoS17 -> Eval LycoS18 (cross-dataset)
-2,cross-dataset,XGB,0.03129702771784224,0.13554374539091724,Train LycoS17 -> Eval LycoS18 (cross-dataset)
-3,within-dataset,RF,0.9840728214353074,0.9272672546088062,Train LycoS18 -> Eval LycoS18 (within-dataset)
-3,within-dataset,XGB,0.9832193173660863,0.7829924415845488,Train LycoS18 -> Eval LycoS18 (within-dataset)
-4,cross-dataset,RF,0.13183441053979988,0.17737807990230905,Train LycoS18 -> Eval LycoS17 (cross-dataset)
-4,cross-dataset,XGB,-0.10835172857075263,0.10569463947586621,Train LycoS18 -> Eval LycoS17 (cross-dataset)
+Experiment,Type,Model,MCC,Macro-F1,AUROC,Description
+1,within-dataset,RF,0.9977542849594369,0.8609745147773801,0.9835715175409627,Train LycoS17 -> Eval LycoS17 (within-dataset)
+1,within-dataset,XGB,0.9928408613393767,0.7350037589914958,0.9956535654240571,Train LycoS17 -> Eval LycoS17 (within-dataset)
+2,cross-dataset,RF,0.04273001380614352,0.2354755675576948,0.7914082457933003,Train LycoS17 -> Eval LycoS18 (cross-dataset)
+2,cross-dataset,XGB,0.03129702771784224,0.13554374539091724,0.938277362240082,Train LycoS17 -> Eval LycoS18 (cross-dataset)
+3,within-dataset,RF,0.9840728214353074,0.9272672546088062,0.9993257332034273,Train LycoS18 -> Eval LycoS18 (within-dataset)
+3,within-dataset,XGB,0.9832193173660863,0.7829924415845488,0.9979214287956075,Train LycoS18 -> Eval LycoS18 (within-dataset)
+4,cross-dataset,RF,0.13183441053979988,0.17737807990230905,0.7132877837520013,Train LycoS18 -> Eval LycoS17 (cross-dataset)
+4,cross-dataset,XGB,-0.10835172857075263,0.10569463947586621,0.5083618588250634,Train LycoS18 -> Eval LycoS17 (cross-dataset)
